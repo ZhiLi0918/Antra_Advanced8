@@ -1,0 +1,25 @@
+.BookCard{
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.BookCard:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.BookCard h3 {
+    color: #007acc;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.BookCard p {
+    font-size: 14px;
+    color: #555;
+}
